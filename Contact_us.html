@@ -1,0 +1,79 @@
+<html>
+<head>
+<style>
+body{
+	background:#323232;
+	}
+	
+form{
+	padding:10px;
+	font-family:arial;
+	border:1px dotted white;
+	}
+.wrap{
+	width:350px;
+	margin:auto;
+	background:#00adee;
+	margin-top:50px;
+	padding:5px;
+	}
+	h2{
+	text-align:center;
+	background:teal;
+	color:white;
+	padding:10px;
+	border-radius:10px;
+	}
+	input{
+	padding:10px;
+	margin:5px;
+	border-radius:5px;
+	border:none;
+	}
+	input[type=email],[type=phone], [type=Name]
+		{
+	width:90%;
+	}
+	
+	input[type=Message]
+	{
+	width:90%;
+	height:15%;
+	}
+	input[type=submit]{
+	width:95%;
+	background:teal;
+	cursor:pointer;
+	font-size:18px;
+	font-weight:bold;
+	color:white;
+	}
+	
+	
+	
+	input[type=submit]:hover{
+	background:CadetBlue;
+	}
+	
+	
+
+
+
+</head>
+</style>
+<body style ="background-image:url('../images/donate1.jpg');
+background-repeat:no repeat;
+background-position:center;
+background size:cover;
+background height:90vh">
+<div class="wrap">
+<h2>Contact Us</h2>
+<form action="../jsp/Contact_us.jsp" method="post">
+<input type="Name" placeholder="Your Name" name="name"><br /><br />
+<input type="Email" placeholder="Your Email" name="email" ><br /><br />
+<input type="Phone" placeholder="Your Phone nu" name="cont"><br /><br />
+<input type="Message" placeholder="Your Message" name="msg"><br /><br />
+<input type="submit" value="Send" name="submit">
+</form>
+</body>
+</html>
